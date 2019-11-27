@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Popbitch Safari" duration-ms="99479" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:15:34Z">
+    <groups>
+    </groups>
+    <test name="Signup_from_FUN" duration-ms="99479" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:15:34Z">
+      <class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice">
+        <test-method status="PASS" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(java.lang.String)[pri:89, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN" duration-ms="11862" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:14:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN -->
+        <test-method status="PASS" signature="i_register_successfully_on_slough_with_one_pound()[pri:90, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="i_register_successfully_on_slough_with_one_pound" duration-ms="31250" started-at="2019-11-27T10:14:06Z" finished-at="2019-11-27T10:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_register_successfully_on_slough_with_one_pound -->
+        <test-method status="PASS" signature="click_ok_on_the_finish_notice()[pri:91, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="click_ok_on_the_finish_notice" duration-ms="2080" started-at="2019-11-27T10:14:38Z" finished-at="2019-11-27T10:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_ok_on_the_finish_notice -->
+        <test-method status="PASS" signature="navigate_to_a_premium_article_on_maidenhead()[pri:92, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="navigate_to_a_premium_article_on_maidenhead" duration-ms="1528" started-at="2019-11-27T10:14:40Z" finished-at="2019-11-27T10:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_a_premium_article_on_maidenhead -->
+        <test-method status="PASS" signature="opt_just_charge_me_on_the_newpublication_notice_and_click_ok()[pri:93, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="opt_just_charge_me_on_the_newpublication_notice_and_click_ok" duration-ms="20172" started-at="2019-11-27T10:14:41Z" finished-at="2019-11-27T10:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opt_just_charge_me_on_the_newpublication_notice_and_click_ok -->
+        <test-method status="FAIL" signature="twentyfivep_is_displayed_on_the_green_tab()[pri:94, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="twentyfivep_is_displayed_on_the_green_tab" duration-ms="20284" started-at="2019-11-27T10:15:01Z" finished-at="2019-11-27T10:15:22Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: __currency__amount (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c53:5723:1897:9109%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 5a7f51b148a1d941f770dc6e252cd592]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: __currency__amount (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c53:5723:1897:9109%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 5a7f51b148a1d941f770dc6e252cd592
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Elements.Wallet_Elements.green_tab_price(Wallet_Elements.java:126)
+at Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice.twentyfivep_is_displayed_on_the_green_tab(MAISMO19_Transaction_through_new_publication_notice.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twentyfivep_is_displayed_on_the_green_tab -->
+        <test-method status="PASS" signature="wallet_balance_is_detucted_by_twentyfivep()[pri:95, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="wallet_balance_is_detucted_by_twentyfivep" duration-ms="6149" started-at="2019-11-27T10:15:22Z" finished-at="2019-11-27T10:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wallet_balance_is_detucted_by_twentyfivep -->
+        <test-method status="PASS" signature="free_point_is_detucted_by_twentyfivep()[pri:96, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="free_point_is_detucted_by_twentyfivep" duration-ms="6116" started-at="2019-11-27T10:15:28Z" finished-at="2019-11-27T10:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- free_point_is_detucted_by_twentyfivep -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice -->
+    </test> <!-- Signup_from_FUN -->
+  </suite> <!--  Popbitch Safari -->
+</testng-results>

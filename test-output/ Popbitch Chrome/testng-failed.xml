@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Chrome]">
+  <test thread-count="5" name="safari(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="Stepdef.Sign_up">
+        <methods>
+          <include name="i_top_up_with_a_valid_card_in_steptwo"/>
+          <include name="i_successfully_click_through_Register_on_the_wallet"/>
+          <include name="i_fill_in_the_details_at_registration_stepone_correctly"/>
+        </methods>
+      </class> <!-- Stepdef.Sign_up -->
+    </classes>
+  </test> <!-- safari(failed) -->
+</suite> <!-- Failed suite [ Popbitch Chrome] -->

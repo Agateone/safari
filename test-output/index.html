@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-_Popbitch_Safari">
+              <span class="suite-name border-failed"> Popbitch Safari</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-_Popbitch_Safari">
+                    <span>POpbitch_chrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-_Popbitch_Safari">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-_Popbitch_Safari">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-_Popbitch_Safari">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-_Popbitch_Safari">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-_Popbitch_Safari">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-_Popbitch_Safari">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Popbitch_Safari" class="hide-methods failed suite-_Popbitch_Safari"> (hide)</a> <!-- hide-methods failed suite-_Popbitch_Safari -->
+                      <a href="#" panel-name="suite-_Popbitch_Safari" class="show-methods failed suite-_Popbitch_Safari"> (show)</a> <!-- show-methods failed suite-_Popbitch_Safari -->
+                    </span>
+                    <div class="method-list-content failed suite-_Popbitch_Safari">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="twentyfivep_is_displayed_on_the_green_tab">twentyfivep_is_displayed_on_the_green_tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Popbitch_Safari -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Popbitch_Safari" class="hide-methods passed suite-_Popbitch_Safari"> (hide)</a> <!-- hide-methods passed suite-_Popbitch_Safari -->
+                      <a href="#" panel-name="suite-_Popbitch_Safari" class="show-methods passed suite-_Popbitch_Safari"> (show)</a> <!-- show-methods passed suite-_Popbitch_Safari -->
+                    </span>
+                    <div class="method-list-content passed suite-_Popbitch_Safari">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="click_ok_on_the_finish_notice">click_ok_on_the_finish_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="free_point_is_detucted_by_twentyfivep">free_point_is_detucted_by_twentyfivep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(chrome)">i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="i_register_successfully_on_slough_with_one_pound">i_register_successfully_on_slough_with_one_pound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="navigate_to_a_premium_article_on_maidenhead">navigate_to_a_premium_article_on_maidenhead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="opt_just_charge_me_on_the_newpublication_notice_and_click_ok">opt_just_charge_me_on_the_newpublication_notice_and_click_ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Safari" title="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice" hash-for-method="wallet_balance_is_detucted_by_twentyfivep">wallet_balance_is_detucted_by_twentyfivep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Popbitch_Safari -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Popbitch_Safari" class="panel _Popbitch_Safari">
+          <div class="suite-_Popbitch_Safari-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twentyfivep_is_displayed_on_the_green_tab">
+                  </a> <!-- twentyfivep_is_displayed_on_the_green_tab -->
+                  <span class="method-name">twentyfivep_is_displayed_on_the_green_tab</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: __currency__amount (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c53:5723:1897:9109%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 5a7f51b148a1d941f770dc6e252cd592
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Elements.Wallet_Elements.green_tab_price(Wallet_Elements.java:126)
+	at Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice.twentyfivep_is_displayed_on_the_green_tab(MAISMO19_Transaction_through_new_publication_notice.java:138)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Safari-class-failed -->
+          <div class="suite-_Popbitch_Safari-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_ok_on_the_finish_notice">
+                  </a> <!-- click_ok_on_the_finish_notice -->
+                  <span class="method-name">click_ok_on_the_finish_notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="free_point_is_detucted_by_twentyfivep">
+                  </a> <!-- free_point_is_detucted_by_twentyfivep -->
+                  <span class="method-name">free_point_is_detucted_by_twentyfivep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(chrome)">
+                  </a> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(chrome) -->
+                  <span class="method-name">i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_register_successfully_on_slough_with_one_pound">
+                  </a> <!-- i_register_successfully_on_slough_with_one_pound -->
+                  <span class="method-name">i_register_successfully_on_slough_with_one_pound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_a_premium_article_on_maidenhead">
+                  </a> <!-- navigate_to_a_premium_article_on_maidenhead -->
+                  <span class="method-name">navigate_to_a_premium_article_on_maidenhead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opt_just_charge_me_on_the_newpublication_notice_and_click_ok">
+                  </a> <!-- opt_just_charge_me_on_the_newpublication_notice_and_click_ok -->
+                  <span class="method-name">opt_just_charge_me_on_the_newpublication_notice_and_click_ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wallet_balance_is_detucted_by_twentyfivep">
+                  </a> <!-- wallet_balance_is_detucted_by_twentyfivep -->
+                  <span class="method-name">wallet_balance_is_detucted_by_twentyfivep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Safari-class-passed -->
+        </div> <!-- panel _Popbitch_Safari -->
+        <div panel-name="test-xml-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jay/eclipse-workspace/Smoke_test_Cases _Staging/POpbitch_chrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot; Popbitch Safari&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Signup_from_FUN&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signup_from_FUN --&gt;
+&lt;/suite&gt; &lt;!--  Popbitch Safari --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Popbitch Safari</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Signup_from_FUN (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Popbitch Safari</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Popbitch Safari</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Popbitch_Safari');
+function tableData__Popbitch_Safari() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'i_register_successfully_on_slough_with_one_pound')
+data.setCell(0, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(0, 3, 31250);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'twentyfivep_is_displayed_on_the_green_tab')
+data.setCell(1, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(1, 3, 20284);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'opt_just_charge_me_on_the_newpublication_notice_and_click_ok')
+data.setCell(2, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(2, 3, 20172);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN')
+data.setCell(3, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(3, 3, 11862);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'wallet_balance_is_detucted_by_twentyfivep')
+data.setCell(4, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(4, 3, 6149);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'free_point_is_detucted_by_twentyfivep')
+data.setCell(5, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(5, 3, 6116);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'click_ok_on_the_finish_notice')
+data.setCell(6, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(6, 3, 2080);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'navigate_to_a_premium_article_on_maidenhead')
+data.setCell(7, 2, 'Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice')
+data.setCell(7, 3, 1528);
+window.suiteTableData['_Popbitch_Safari']= { tableData: data, tableDiv: 'times-div-_Popbitch_Safari'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-_Popbitch_Safari">
+              </div> <!-- times-div-_Popbitch_Safari -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Popbitch Safari</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Popbitch_Safari" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_register_successfully_on_slough_with_one_pound</span>
+                <span class="method-start">11866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_ok_on_the_finish_notice</span>
+                <span class="method-start">43117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_a_premium_article_on_maidenhead</span>
+                <span class="method-start">45199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">opt_just_charge_me_on_the_newpublication_notice_and_click_ok</span>
+                <span class="method-start">46728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">twentyfivep_is_displayed_on_the_green_tab</span>
+                <span class="method-start">66902 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wallet_balance_is_detucted_by_twentyfivep</span>
+                <span class="method-start">87189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">free_point_is_detucted_by_twentyfivep</span>
+                <span class="method-start">93340 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

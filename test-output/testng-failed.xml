@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Safari]">
+  <test thread-count="5" name="Signup_from_FUN(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice">
+        <methods>
+          <include name="twentyfivep_is_displayed_on_the_green_tab"/>
+        </methods>
+      </class> <!-- Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice -->
+    </classes>
+  </test> <!-- Signup_from_FUN(failed) -->
+</suite> <!-- Failed suite [ Popbitch Safari] -->

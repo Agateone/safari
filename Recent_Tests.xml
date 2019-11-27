@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Popbitch Safari">
+  <test  name="Signup_from_FUN" >
+   <parameter name="browser" value="chrome" />
+    <classes>
+  
+   	<class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice"></class>
+   	 
+    </classes>
+  </test> 
+  </suite>

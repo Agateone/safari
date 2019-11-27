@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Popbitch firefox">
+  <test  name="firefox" >
+   <parameter name="browser" value="firefox" />
+    <classes>
+   	<class name="Stepdef.Popbitch.Popbitch_register_from_login_page"/>
+   
+
+    </classes>
+  </test>  
+</suite> 

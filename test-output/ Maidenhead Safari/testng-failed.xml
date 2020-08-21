@@ -2,86 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [ Maidenhead Safari]">
   <test thread-count="5" name="Signup_from_FUN(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="Safari"/>
     <classes>
-      <class name="Stepdef.Maidenhead.POPSMO12_Maidenhead_State_Postcode_Required_when_US_Selected_on_regpage2">
+      <class name="Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice">
         <methods>
-          <include name="postcode_is_displayed"/>
-          <include name="enter_valid_card_details"/>
-          <include name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two"/>
-          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN" invocation-numbers="0"/>
-          <include name="state_is_displayed"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN"/>
         </methods>
-      </class> <!-- Stepdef.Maidenhead.POPSMO12_Maidenhead_State_Postcode_Required_when_US_Selected_on_regpage2 -->
-      <class name="Stepdef.Maidenhead.POPSMO11_Maidenhead_Axate_lets_user_select_their_country">
-        <methods>
-          <include name="country_in_the_personal_information_page_in_the_account_page_is_spain"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.POPSMO11_Maidenhead_Axate_lets_user_select_their_country -->
-      <class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice">
-        <methods>
-          <include name="twentyfivep_is_displayed_on_the_green_tab"/>
-          <include name="free_point_is_detucted_by_twentyfivep"/>
-          <include name="opt_just_charge_me_on_the_newpublication_notice_and_click_ok"/>
-          <include name="wallet_balance_is_detucted_by_twentyfivep"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice -->
-      <class name="Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice">
-        <methods>
-          <include name="twentyfivep_is_deducted_from_the_wallet"/>
-          <include name="free_period_is_acheived_with_free_on_the_free_point"/>
-          <include name="i_navigate_to_second_premium_article_on_maidenhead"/>
-          <include name="twentyfivep_is_deducted_from_the_wallet_3rd_article"/>
-          <include name="i_navigate_to_third_premium_article_on_maidenhead"/>
-          <include name="i_opt_just_cahrge_me_on_the_newpublication_notice_and_click_ok"/>
-          <include name="twentyfivep_is_deducted_from_the_wallet_after_first_article"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice -->
-      <class name="Stepdef.Maidenhead.POPSMO10_maidenhead_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment">
-        <methods>
-          <include name="an_ADD_funds_notice_is_displayed"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.POPSMO10_maidenhead_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment -->
-      <class name="Stepdef.Maidenhead.MAISMO17_Transaction_from_finish_notice">
-        <methods>
-          <include name="twentyfivep_is_displayed_on_the_green_tab"/>
-          <include name="i_register_successfully_on_popbitch_with_one_pound"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO17_Transaction_from_finish_notice -->
-      <class name="Stepdef.Maidenhead.POPSMO02_maidenhead_register_from_wallet">
-        <methods>
-          <include name="navigated_to_maidenhead_com"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.POPSMO02_maidenhead_register_from_wallet -->
-      <class name="Stepdef.Maidenhead.POPSMO01_maidenhead_register_from_first_use_notice">
-        <methods>
-          <include name="navigated_to_the_same_article"/>
-          <include name="finish_notice_appears"/>
-          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.POPSMO01_maidenhead_register_from_first_use_notice -->
-      <class name="Stepdef.Maidenhead.MAISMO18_Transaction_from_authorise_charge_notice">
-        <methods>
-          <include name="i_register_successfully_on_popbitch_with_one_pound"/>
-          <include name="opt_just_charge_me_on_the_finish_notice_and_click_ok"/>
-          <include name="click_ok_on_the_authorise_charge_notice"/>
-          <include name="free_point_is_detucted_by_twentyfivep"/>
-          <include name="twentyfivep_is_displayed_on_the_green_tab"/>
-          <include name="wallet_balance_is_detucted_by_twentyfivep"/>
-          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO18_Transaction_from_authorise_charge_notice -->
-      <class name="Stepdef.Maidenhead.MAISMO15_Wallet_balance_same_on_reading_article">
-        <methods>
-          <include name="i_check_in_wallet_balance_on_windsor"/>
-          <include name="i_read_an_article_on_Maidenhead"/>
-          <include name="i_check_in_wallet_balance_on_Maidenhead"/>
-          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
-          <include name="i_check_in_wallet_balance_on_slough"/>
-          <include name="the_wallet_balance_is_same_across_the_publications"/>
-          <include name="i_register_successfully_on_Maidenhead_with_three_pound"/>
-        </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO15_Wallet_balance_same_on_reading_article -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice -->
     </classes>
   </test> <!-- Signup_from_FUN(failed) -->
 </suite> <!-- Failed suite [ Maidenhead Safari] -->

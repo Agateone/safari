@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="5" ignored="0" total="11" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name=" Popbitch Safari" duration-ms="99479" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:15:34Z">
+  <suite name=" Popbitch firefox" duration-ms="126627" started-at="2020-03-09T11:01:57Z" finished-at="2020-03-09T11:04:04Z">
     <groups>
     </groups>
-    <test name="Signup_from_FUN" duration-ms="99479" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:15:34Z">
-      <class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice">
-        <test-method status="PASS" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN(java.lang.String)[pri:89, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN" duration-ms="11862" started-at="2019-11-27T10:13:54Z" finished-at="2019-11-27T10:14:06Z">
+    <test name="firefox" duration-ms="126627" started-at="2020-03-09T11:01:57Z" finished-at="2020-03-09T11:04:04Z">
+      <class name="Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice">
+        <test-method status="PASS" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN(java.lang.String)[pri:1, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN" duration-ms="10761" started-at="2020-03-09T11:01:57Z" finished-at="2020-03-09T11:02:08Z">
           <params>
             <param index="0">
               <value>
@@ -17,44 +17,29 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_slough_FUN -->
-        <test-method status="PASS" signature="i_register_successfully_on_slough_with_one_pound()[pri:90, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="i_register_successfully_on_slough_with_one_pound" duration-ms="31250" started-at="2019-11-27T10:14:06Z" finished-at="2019-11-27T10:14:38Z">
+        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN -->
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:2, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="14804" started-at="2020-03-09T11:02:08Z" finished-at="2020-03-09T11:02:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- i_register_successfully_on_slough_with_one_pound -->
-        <test-method status="PASS" signature="click_ok_on_the_finish_notice()[pri:91, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="click_ok_on_the_finish_notice" duration-ms="2080" started-at="2019-11-27T10:14:38Z" finished-at="2019-11-27T10:14:40Z">
+        </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
+        <test-method status="PASS" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:3, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="5860" started-at="2020-03-09T11:02:23Z" finished-at="2020-03-09T11:02:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_ok_on_the_finish_notice -->
-        <test-method status="PASS" signature="navigate_to_a_premium_article_on_maidenhead()[pri:92, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="navigate_to_a_premium_article_on_maidenhead" duration-ms="1528" started-at="2019-11-27T10:14:40Z" finished-at="2019-11-27T10:14:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate_to_a_premium_article_on_maidenhead -->
-        <test-method status="PASS" signature="opt_just_charge_me_on_the_newpublication_notice_and_click_ok()[pri:93, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="opt_just_charge_me_on_the_newpublication_notice_and_click_ok" duration-ms="20172" started-at="2019-11-27T10:14:41Z" finished-at="2019-11-27T10:15:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opt_just_charge_me_on_the_newpublication_notice_and_click_ok -->
-        <test-method status="FAIL" signature="twentyfivep_is_displayed_on_the_green_tab()[pri:94, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="twentyfivep_is_displayed_on_the_green_tab" duration-ms="20284" started-at="2019-11-27T10:15:01Z" finished-at="2019-11-27T10:15:22Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
+        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:4, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="17440" started-at="2020-03-09T11:02:29Z" finished-at="2020-03-09T11:02:46Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: __currency__amount (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c53:5723:1897:9109%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 5a7f51b148a1d941f770dc6e252cd592]]>
+              <![CDATA[expected [3.00] but found [1.00]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: __currency__amount (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c53:5723:1897:9109%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 5a7f51b148a1d941f770dc6e252cd592
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at Elements.Wallet_Elements.green_tab_price(Wallet_Elements.java:126)
-at Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice.twentyfivep_is_displayed_on_the_green_tab(MAISMO19_Transaction_through_new_publication_notice.java:138)
+              <![CDATA[java.lang.AssertionError: expected [3.00] but found [1.00]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO01_maidenhead_register_from_first_use_notice.java:116)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,19 +67,296 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
+        <test-method status="PASS" signature="navigated_to_the_same_article()[pri:5, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="navigated_to_the_same_article" duration-ms="6" started-at="2020-03-09T11:02:46Z" finished-at="2020-03-09T11:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigated_to_the_same_article -->
+        <test-method status="PASS" signature="finish_notice_appears()[pri:6, instance:Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2]" name="finish_notice_appears" duration-ms="189" started-at="2020-03-09T11:02:46Z" finished-at="2020-03-09T11:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish_notice_appears -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice -->
+      <class name="Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages(java.lang.String)[pri:7, instance:Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages" duration-ms="30807" started-at="2020-03-09T11:02:46Z" finished-at="2020-03-09T11:03:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element is not clickable at point (-133, 159)
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (-133, 159)
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
+at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at Elements.Popbitch_Logged_Out_Wallet.Click_On_popbitch_wallet_register_button(Popbitch_Logged_Out_Wallet.java:43)
+at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages(MAISMO02_maidenhead_register_from_wallet.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages -->
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:8, instance:Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="2039" started-at="2020-03-09T11:03:17Z" finished-at="2020-03-09T11:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
+        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:9, instance:Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="22264" started-at="2020-03-09T11:03:19Z" finished-at="2020-03-09T11:03:41Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: braintree-option__label (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: braintree-option__label (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Elements.Register_Page_Elements1.Registration_Step2(Register_Page_Elements1.java:87)
+at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue(MAISMO02_maidenhead_register_from_wallet.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"braintree-option__label"}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=class name, value=braintree-option__label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
+]]>
+            </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- twentyfivep_is_displayed_on_the_green_tab -->
-        <test-method status="PASS" signature="wallet_balance_is_detucted_by_twentyfivep()[pri:95, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="wallet_balance_is_detucted_by_twentyfivep" duration-ms="6149" started-at="2019-11-27T10:15:22Z" finished-at="2019-11-27T10:15:28Z">
+        </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
+        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:10, instance:Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="22405" started-at="2020-03-09T11:03:41Z" finished-at="2020-03-09T11:04:04Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: agateposter (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: agateposter (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Elements.Wallet_Elements.Click_On_popbitch_staging_agate_poster(Wallet_Elements.java:37)
+at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO02_maidenhead_register_from_wallet.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"agateposter"}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=id, value=agateposter}
+at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wallet_balance_is_detucted_by_twentyfivep -->
-        <test-method status="PASS" signature="free_point_is_detucted_by_twentyfivep()[pri:96, instance:Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice@4b4523f8]" name="free_point_is_detucted_by_twentyfivep" duration-ms="6116" started-at="2019-11-27T10:15:28Z" finished-at="2019-11-27T10:15:34Z">
+        </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
+        <test-method status="FAIL" signature="navigated_to_maidenhead_com()[pri:11, instance:Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0]" name="navigated_to_maidenhead_com" duration-ms="5" started-at="2020-03-09T11:04:04Z" finished-at="2020-03-09T11:04:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://staging.maidenhead-advertiser.co.uk/] but found [http://staging.maidenhead-advertiser.co.uk/?refresh_ce]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://staging.maidenhead-advertiser.co.uk/] but found [http://staging.maidenhead-advertiser.co.uk/?refresh_ce]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.navigated_to_maidenhead_com(MAISMO02_maidenhead_register_from_wallet.java:131)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- free_point_is_detucted_by_twentyfivep -->
-      </class> <!-- Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice -->
-    </test> <!-- Signup_from_FUN -->
-  </suite> <!--  Popbitch Safari -->
+        </test-method> <!-- navigated_to_maidenhead_com -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet -->
+    </test> <!-- firefox -->
+  </suite> <!--  Popbitch firefox -->
 </testng-results>

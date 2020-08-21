@@ -5,7 +5,7 @@
    <parameter name="browser" value="chrome" />
     <classes>
   
-   	<class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice"></class>
+   	<class name="Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice"></class>
    	 
     </classes>
   </test> 

@@ -4,11 +4,13 @@
   <test thread-count="5" name="Signup_from_FUN(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice">
+      <class name="Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice">
         <methods>
-          <include name="twentyfivep_is_displayed_on_the_green_tab"/>
+          <include name="free_period_is_acheived_with_free_on_the_free_point"/>
+          <include name="i_navigate_to_second_premium_article_on_maidenhead"/>
+          <include name="i_navigate_to_third_premium_article_on_maidenhead"/>
         </methods>
-      </class> <!-- Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice -->
     </classes>
   </test> <!-- Signup_from_FUN(failed) -->
 </suite> <!-- Failed suite [ Popbitch Safari] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 13 16:57:16 GMT 2019</td>
+<td>Started on:</td><td>Mon Mar 09 11:01:57 GMT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>33 seconds (33491 ms)</td>
+<tr><td>Total time:</td><td>126 seconds (126627 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,52 +75,62 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.finish_notice_appears()'><b>finish_notice_appears</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;iframe__popup_notices&quot;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<td title='Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages</b><br>Test class: Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet<br>Parameters: chrome</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (-133, 159)
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10f9:814:3c56:11d8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 65128, moz:profile: /var/folders/s6/h3svzd2j4f3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 59294de4-22c7-a74f-b17a-b85138f4b5db
-*** Element info: {Using=xpath, value=//*[@id=&quot;iframe__popup_notices&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Elements.Popbitch_Finish_Notice_elements.Verify_finish_notice_appears(Popbitch_Finish_Notice_elements.java:86)
-	at Stepdef.Popbitch.Popbitch_register_from_login_page.finish_notice_appears(Popbitch_register_from_login_page.java:153)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1172535934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1172535934'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;iframe__popup_notices&quot;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at Elements.Popbitch_Logged_Out_Wallet.Click_On_popbitch_wallet_register_button(Popbitch_Logged_Out_Wallet.java:43)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages(MAISMO02_maidenhead_register_from_wallet.java:77)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace94830685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace94830685'><pre>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (-133, 159)
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:10f9:814:3c56:11d8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 65128, moz:profile: /var/folders/s6/h3svzd2j4f3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 59294de4-22c7-a74f-b17a-b85138f4b5db
-*** Element info: {Using=xpath, value=//*[@id=&quot;iframe__popup_notices&quot;]}
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Elements.Popbitch_Finish_Notice_elements.Verify_finish_notice_appears(Popbitch_Finish_Notice_elements.java:86)
-	at Stepdef.Popbitch.Popbitch_register_from_login_page.finish_notice_appears(Popbitch_register_from_login_page.java:153)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at Elements.Popbitch_Logged_Out_Wallet.Click_On_popbitch_wallet_register_button(Popbitch_Logged_Out_Wallet.java:43)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages(MAISMO02_maidenhead_register_from_wallet.java:77)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -147,21 +157,160 @@ Session ID: 59294de4-22c7-a74f-b17a-b85138f4b5db
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>30</td>
+<td>Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0</td></tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.navigated_to_the_same_article()'><b>navigated_to_the_same_article</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
-<td><div><pre>java.lang.AssertionError: expected [http://popbitch.agate.one/2017/10/the-harder-they-fall-2/] but found [http://popbitch.agate.one/2017/10/the-harder-they-fall-2/undefined]
-	at Stepdef.Popbitch.Popbitch_register_from_login_page.navigated_to_the_same_article(Popbitch_register_from_login_page.java:145)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419332030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1419332030'><pre>java.lang.AssertionError: expected [http://popbitch.agate.one/2017/10/the-harder-they-fall-2/] but found [http://popbitch.agate.one/2017/10/the-harder-they-fall-2/undefined]
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_get_a_funded_axate_wallet_with_one_pound_in_it()'><b>i_get_a_funded_axate_wallet_with_one_pound_in_it</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice</td>
+<td><div><pre>java.lang.AssertionError: expected [3.00] but found [1.00]
+	at Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO01_maidenhead_register_from_first_use_notice.java:116)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace46941357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace46941357'><pre>java.lang.AssertionError: expected [3.00] but found [1.00]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:453)
 	at org.testng.Assert.assertEquals(Assert.java:463)
-	at Stepdef.Popbitch.Popbitch_register_from_login_page.navigated_to_the_same_article(Popbitch_register_from_login_page.java:145)
+	at Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO01_maidenhead_register_from_first_use_notice.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_get_a_funded_axate_wallet_with_one_pound_in_it()'><b>i_get_a_funded_axate_wallet_with_one_pound_in_it</b><br>Test class: Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: agateposter (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Elements.Wallet_Elements.Click_On_popbitch_staging_agate_poster(Wallet_Elements.java:37)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO02_maidenhead_register_from_wallet.java:119)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;agateposter&quot;}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=id, value=agateposter}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace36531985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace36531985'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: agateposter (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Elements.Wallet_Elements.Click_On_popbitch_staging_agate_poster(Wallet_Elements.java:37)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_get_a_funded_axate_wallet_with_one_pound_in_it(MAISMO02_maidenhead_register_from_wallet.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;agateposter&quot;}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=id, value=agateposter}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+</pre></div></td>
+<td>22</td>
+<td>Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0</td></tr>
+<tr>
+<td title='Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.navigated_to_maidenhead_com()'><b>navigated_to_maidenhead_com</b><br>Test class: Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet</td>
+<td><div><pre>java.lang.AssertionError: expected [http://staging.maidenhead-advertiser.co.uk/] but found [http://staging.maidenhead-advertiser.co.uk/?refresh_ce]
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.navigated_to_maidenhead_com(MAISMO02_maidenhead_register_from_wallet.java:131)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace609483101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609483101'><pre>java.lang.AssertionError: expected [http://staging.maidenhead-advertiser.co.uk/] but found [http://staging.maidenhead-advertiser.co.uk/?refresh_ce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.navigated_to_maidenhead_com(MAISMO02_maidenhead_register_from_wallet.java:131)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -189,7 +338,106 @@ Session ID: 59294de4-22c7-a74f-b17a-b85138f4b5db
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0</td></tr>
+<tr>
+<td title='Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()'><b>top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue</b><br>Test class: Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: braintree-option__label (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Elements.Register_Page_Elements1.Registration_Step2(Register_Page_Elements1.java:87)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue(MAISMO02_maidenhead_register_from_wallet.java:109)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;braintree-option__label&quot;}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=class name, value=braintree-option__label}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1547398254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1547398254'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: braintree-option__label (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Elements.Register_Page_Elements1.Registration_Step2(Register_Page_Elements1.java:87)
+	at Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue(MAISMO02_maidenhead_register_from_wallet.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;braintree-option__label&quot;}
+  (Session info: chrome=80.0.3987.132)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fdff:1ba0:aa7d:1:9d45:c6e6:9e1:9e62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: b5d5f7713e2d2c690ca332218b999a0c
+*** Element info: {Using=class name, value=braintree-option__label}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+</pre></div></td>
+<td>22</td>
+<td>Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -199,30 +447,35 @@ Session ID: 59294de4-22c7-a74f-b17a-b85138f4b5db
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.I_click_on_register_here_on_the_login_page()'><b>I_click_on_register_here_on_the_login_page</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.finish_notice_appears()'><b>finish_notice_appears</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice</td>
 <td></td>
 <td>0</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page<br>Parameters: firefox</td>
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_FUN</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice<br>Parameters: chrome</td>
 <td></td>
-<td>5</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>10</td>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.i_enter_all_the_required_details_on_step_one_and_click_on_continue()'><b>i_enter_all_the_required_details_on_step_one_and_click_on_continue</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.i_enter_all_the_required_details_on_step_one_and_click_on_continue()'><b>i_enter_all_the_required_details_on_step_one_and_click_on_continue</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice</td>
 <td></td>
-<td>13</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>14</td>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
 <tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.i_get_a_funded_axate_wallet_with_one_pound_in_it()'><b>i_get_a_funded_axate_wallet_with_one_pound_in_it</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
-<td></td>
-<td>8</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
-<tr>
-<td title='Stepdef.Popbitch.Popbitch_register_from_login_page.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()'><b>top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue</b><br>Test class: Stepdef.Popbitch.Popbitch_register_from_login_page</td>
+<td title='Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet.i_enter_all_the_required_details_on_step_one_and_click_on_continue()'><b>i_enter_all_the_required_details_on_step_one_and_click_on_continue</b><br>Test class: Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet</td>
 <td></td>
 <td>2</td>
-<td>Stepdef.Popbitch.Popbitch_register_from_login_page@6f1fba17</td></tr>
+<td>Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet@6ddf90b0</td></tr>
+<tr>
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.navigated_to_the_same_article()'><b>navigated_to_the_same_article</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice.top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()'><b>top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue</b><br>Test class: Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice@2b2948e2</td></tr>
 </table><p>
 </body>
 </html>

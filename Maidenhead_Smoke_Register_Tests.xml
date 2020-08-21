@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Maidenhead_Smoke_Register">
+  <test  name="Maidenhead_Smoke_Register_Chrome" >
+   <parameter name="browser" value="chrome" />
+    <classes>  		    
+    	<class name="Stepdef.Maidenhead.POPSMO01_maidenhead_register_from_first_use_notice"/>
+   		<class name="Stepdef.Maidenhead.POPSMO02_maidenhead_register_from_wallet"/>
+   		<class name="Stepdef.Maidenhead.POPSMO03_maidenhead_register_from_login_page"/>
+   		<class name="Stepdef.Maidenhead.POPSMO04_maidenhead_Payment_system_loads_on_one_pound"/>
+   	 	<class name="Stepdef.Maidenhead.POPSMO10_maidenhead_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment"/>
+   	  	<class name="Stepdef.Maidenhead.POPSMO11_Maidenhead_Axate_lets_user_select_their_country"/>
+   	  	<class name="Stepdef.Maidenhead.POPSMO12_Maidenhead_State_Postcode_Required_when_US_Selected_on_regpage2"/>
+   	  	<class name="Stepdef.Maidenhead.POPSMO13_maidenhead_User_Registers_with_Country_As_US"/>
+    	<class name="Stepdef.Maidenhead.MAISMO14_Wallet_balance_same_on_registration"/>
+    
+    <class name="Stepdef.Maidenhead.MAISMO15_Wallet_balance_same_on_reading_article"/>   	
+   	<class name="Stepdef.Maidenhead.MAISMO17_Transaction_from_finish_notice"/>
+   	<class name="Stepdef.Maidenhead.MAISMO18_Transaction_from_authorise_charge_notice"/>
+   	<class name= "Stepdef.Maidenhead.MAISMO19_Transaction_through_new_publication_notice"/>
+   	<class name= "Stepdef.Maidenhead.MAISMO28_Free_period_from_new_publication_notice"/>
+    </classes>
+  </test> 
+ 
+  </suite> 

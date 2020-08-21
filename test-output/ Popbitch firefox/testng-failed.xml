@@ -2,14 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch firefox]">
   <test thread-count="5" name="firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Popbitch.Popbitch_register_from_login_page">
+      <class name="Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet">
         <methods>
-          <include name="finish_notice_appears"/>
-          <include name="navigated_to_the_same_article"/>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_maidenhead_Wallet_homepages" invocation-numbers="0"/>
+          <include name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue"/>
+          <include name="navigated_to_maidenhead_com"/>
         </methods>
-      </class> <!-- Stepdef.Popbitch.Popbitch_register_from_login_page -->
+      </class> <!-- Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet -->
+      <class name="Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice">
+        <methods>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+        </methods>
+      </class> <!-- Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice -->
     </classes>
   </test> <!-- firefox(failed) -->
 </suite> <!-- Failed suite [ Popbitch firefox] -->

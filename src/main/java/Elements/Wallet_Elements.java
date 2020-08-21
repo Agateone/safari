@@ -1,5 +1,9 @@
 package Elements;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -120,13 +124,83 @@ public class Wallet_Elements {
 	}
 	
 	
-	public String green_tab_price()
+	public String green_tab_price() throws InterruptedException
 	{
-		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
-		WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("__currency__amount")));				
+		//WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		//WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("__currency__amount")));				
+		WebElement element = driver_Popbitch_Wallet_Elements_staging.findElement(By.id("__currency__amount"));
 		String price= element.getText();
 		System.out.print(price);
+
 		return price;
 		
+	}
+	
+	public String updates_on_date()
+	{
+		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iframe__wallet")));
+		driver_Popbitch_Wallet_Elements_staging.switchTo().frame("iframe__wallet");		
+		WebElement updates_on = driver_Popbitch_Wallet_Elements_staging.findElement(By.xpath("/html/body/div/div/div/div/div/div[2]/section/main/div/div[2]/div[1]/p[1]"));
+		
+		String updates_date= updates_on.getText();
+		driver_Popbitch_Wallet_Elements_staging.switchTo().defaultContent();
+				return updates_date;		
+	}
+	
+	public void Click_authy_OFF()
+	{
+		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iframe__wallet")));
+		driver_Popbitch_Wallet_Elements_staging.switchTo().frame("iframe__wallet");				
+		driver_Popbitch_Wallet_Elements_staging.findElement(By.xpath("/html/body/div/div/div/div/div/div[2]/section/main/div/div[2]/div[2]/div")).click();
+		driver_Popbitch_Wallet_Elements_staging.switchTo().defaultContent();
+		
+	}
+	
+	
+	public String Get__free_period()
+	{
+		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iframe__wallet")));
+		driver_Popbitch_Wallet_Elements_staging.switchTo().frame("iframe__wallet");			
+		String free_ponint_date= driver_Popbitch_Wallet_Elements_staging.findElement(By.xpath("/html/body/div/div/div/div/div/div[1]/div/div[4]/div[3]/div/p[2]")).getText();
+		System.out.print(free_ponint_date);
+		driver_Popbitch_Wallet_Elements_staging.switchTo().defaultContent();
+		return free_ponint_date;
+	}
+	
+	public String Wallet_Free_point_Date(){
+		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iframe__wallet")));
+		driver_Popbitch_Wallet_Elements_staging.switchTo().frame("iframe__wallet");		
+		String free_ponint_date= driver_Popbitch_Wallet_Elements_staging.findElement(By.xpath("/html/body/div/div/div/div/div/div[1]/div/div[4]/div[3]/div/p[2]/span/text()[2]")).getText();
+		System.out.println(free_ponint_date);
+		driver_Popbitch_Wallet_Elements_staging.switchTo().defaultContent();
+		return free_ponint_date;
+		
+		
+	}
+	
+	public String Wallet_Free_point_Time(){
+		WebDriverWait wait = new WebDriverWait(driver_Popbitch_Wallet_Elements_staging, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iframe__wallet")));
+		driver_Popbitch_Wallet_Elements_staging.switchTo().frame("iframe__wallet");			
+		String free_ponint_time= driver_Popbitch_Wallet_Elements_staging.findElement(By.xpath("/html/body/div/div/div/div/div/div[1]/div/div[4]/div[3]/div/p[2]/span/text()[1]")).getText();
+		System.out.println(free_ponint_time);
+		driver_Popbitch_Wallet_Elements_staging.switchTo().defaultContent();
+		return free_ponint_time;
+	
+	
+}
+	
+	
+	
+	public String get_current_free_period_time() {
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+		Calendar calendar = Calendar.getInstance();
+		Date DateTime_expected_free_period = calendar.getTime();
+		String expected_free_period_time = sdf.format(DateTime_expected_free_period);	
+		return expected_free_period_time;
 	}
 }

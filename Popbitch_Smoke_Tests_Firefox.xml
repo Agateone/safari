@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name=" Popbitch firefox">
   <test  name="firefox" >
-   <parameter name="browser" value="firefox" />
+   <parameter name="browser" value="chrome" />
     <classes>
-   	<class name="Stepdef.Popbitch.Popbitch_register_from_first_use_notice"/>
-   	<class name="Stepdef.Popbitch.Popbitch_register_from_wallet"/>
+   	  <class name="Stepdef.Maidenhead.MAISMO01_maidenhead_register_from_first_use_notice"/>
+   		<class name="Stepdef.Maidenhead.MAISMO02_maidenhead_register_from_wallet"/>
 
     </classes>
   </test>  

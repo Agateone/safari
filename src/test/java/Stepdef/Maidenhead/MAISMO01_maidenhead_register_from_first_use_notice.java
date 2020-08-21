@@ -26,15 +26,11 @@ public class MAISMO01_maidenhead_register_from_first_use_notice {
 	    caps.setCapability("platform", "macOS 10.15.5");
 	    caps.setCapability("version", "latest");
 	    WebDriver driver = new RemoteWebDriver(new URL(URL),caps);
-				driver= new SafariDriver();
-				driver.manage().window().maximize();
-				try {
+
 					driver.get("https://popbitch.com");					
-				}
-				catch(Exception e)
-				{
+				
 					System.out.println("Couldnt open maidenhead staging");
-				}
+			
 				
 
 		
